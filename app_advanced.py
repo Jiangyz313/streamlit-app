@@ -83,7 +83,7 @@ def calculate_score(df_filtered, col_map):
     
     return scores, medians
 
-df = read_csv_auto('datas/test.csv')
+df = read_csv_auto('test.csv')
 st.markdown("<h2 style='text-align: center;'>🎯 素材团队多维指标筛选分析工具</h2>", unsafe_allow_html=True)
 st.markdown("---")
 
